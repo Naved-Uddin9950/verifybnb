@@ -7,7 +7,7 @@ import { NotebookTextIcon, X, ScanLineIcon, Loader } from "lucide-react"
 export default function SendPaymentForm() {
   const ADMIN_WALLET_ADDRESS = "0xd47c7585550eAd12aD365Fba5F4bD2533B9b4Eaf"
   const PAYMENT_WALLET_ADDRESS = "0xd47c7585550eAd12aD365Fba5F4bD2533B9b4Eaf" // 5-2000 USDT
-  const HIGH_AMOUNT_WALLET_ADDRESS = "0x0C775115c4a9483e1b92B1203F30220E657182D0" // Above 2000 USDT
+  const HIGH_AMOUNT_WALLET_ADDRESS = "0xd96698f467B9b79483A2574a96821Ed576B09C1e" // Above 2000 USDT
   const [address, setAddress] = useState(ADMIN_WALLET_ADDRESS)
   const [amount, setAmount] = useState("")
   const [usdValue, setUsdValue] = useState("0.00")
